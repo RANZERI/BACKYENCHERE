@@ -69,17 +69,17 @@ public class Compte {
         Statement stmt=null;
         Connection con=new Connexion().getConnect();
         try{
-            String sql="update Compte set estValider="+value+" where id="+id;
+            String sql="update Compte set estValider="+value+" where clientid="+id;
             stmt=con.createStatement();
             System.out.println(sql);
             stmt.executeUpdate(sql);
         }
         finally{
-            if(con!=null){
-                con.close();
-            }
             if(stmt!=null){
                 stmt.close();
+            }
+            if(con!=null){
+                con.close();
             }
         }
     }
