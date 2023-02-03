@@ -1,0 +1,19 @@
+etape 1:
+    ✔ Download last subject @done(22-11-21 23:19)
+    ✔ Conception database @done(22-11-21 23:19)
+    ✔ Rediger le script @done(22-11-22 00:31)
+    ✔ CRUD vehicule @done(22-11-22 00:31)
+    ✔ CRUD kilometrage @done(22-11-22 01:02)
+    - login
+etape 2:    
+    - generation token
+    ✔ Format de JSON retour @done(22-11-22 08:15)
+    - deconnexion
+
+etape 3:
+     Vanilla:
+        ✔ vanilla doc @done(22-11-22 16:12)
+        ✔ -learn to call a rest api using vanilla @done(22-11-22 16:12)
+            npm install -g local-cors-proxy
+            lcp --proxyUrl http://localhost:8080                  
+
